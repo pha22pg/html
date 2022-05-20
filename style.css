@@ -1,0 +1,148 @@
+/* Task 2: decorate your profile with CSS
+Set up your .css file
+Link to your .css file in the head of your .html document
+Style your profile any way you like!
+Try to use each of the following CSS properties at least once:
+
+margin
+padding
+border
+border-radius
+font-family
+font-size
+background-color
+color
+text-align
+Once you have applied these CSS properties, 
+feel free to explore the many others at your disposal! */
+:root{
+    --punk-teal: #00F0FF;
+    --punk-yellow : #ffef00;
+}
+
+
+
+*{
+    margin  : 0px;
+    padding : 0px;
+    color : white;
+    /* font-family : helvetica; */
+}
+
+body{
+    
+    padding : 20px;
+    background: black;
+}
+main{
+    background :rgb(35, 36, 36);
+}
+
+h1{
+    color : whitesmoke;
+}
+
+
+
+.ul-0 a{
+    height: 20px;
+    border : solid black 2px;
+    border-radius: 5px;
+    margin: 5px;
+    background-color:var(--punk-yellow);
+    font-size: 15px;
+    font-family: monospace;
+    font-weight: 900;
+}
+
+.ul-0 a, .ul-0{
+    display : block;
+    width : auto;
+    list-style-type: none;
+    text-decoration:none;
+    
+
+    color: black;
+}
+.ul-0 a:hover{
+    /* background-color: #555; */
+    color:var(--punk-teal);
+}
+
+
+p{
+    color :var(--punk-teal);
+}
+
+img{
+    border-radius: 15px;
+    border : 2px var(--punk-yellow) solid ;
+    width : 50%;
+    display: inline-block;
+}
+
+.bio{
+    font-family: monospace;
+    font-size: 15px;
+    margin : 0px;
+    list-style-position: inside;
+    padding : 30px;
+    
+}
+
+.bio{
+    border-radius: 15px;
+    border : 2px var(--punk-yellow) solid ;
+
+}
+
+.cyberwear-info{
+    float:right;
+    display :inline-block;
+    width : 35%;
+    margin: 10px 0px;
+    font-size: 0.9em;
+    
+}
+.affiliations-info{
+    float:left;
+    display:inline-block;
+    width: 35%;
+    margin: 10px 0px;
+    font-size: 0.9em;
+}
+
+.albums{
+    float:left;
+    display:inline-block;
+    width: 50%;
+    margin: 10px 0px;
+    font-size: 0.9em;
+    border-radius: 15px;
+    border : 2px var(--punk-yellow) solid ;
+    list-style-position: inside;
+    box-sizing: border-box;
+    
+}
+
+.singles{
+    float:right;
+    display :inline-block;
+    width : 50%;
+    margin: 10px 0px;
+    font-size: 0.9em;
+    border-radius: 15px;
+    border : 2px var(--punk-yellow) solid ;
+    list-style-position: inside;
+    box-sizing: border-box;
+}
+.band-members{
+    
+    display :inline-block;
+    width : 100%;
+    margin: 10px 0px;
+    font-size: 0.9em;
+    border-radius: 15px;
+    border : 2px var(--punk-yellow) solid ;
+    list-style-position: inside;
+}
